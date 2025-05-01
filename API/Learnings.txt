@@ -1,0 +1,31 @@
+Entity Framework:
+
+Object Relation Mapper(ORM):
+
+--> Translates our code into SQL commands that update our tables in the database.
+
+--> AppUser Entity
+
+--> Entity Framework - DbContext - primary class to interact with database(Converts code into SQL)
+--> SQlite - easy to use portability, ease for development, not suitable for production.
+
+
+
+Entity Framework:
+
+Querying
+Change Tracking
+Saving(provides CRUD)
+Concurrency
+Transaction(Automatic )
+Caching
+Built-in conventions
+Configurations(Makes change in builtin conventions)
+Migrations
+
+
+Make a migration using:
+
+used - dotnet ef - for migrations
+
+dotnet ef database update
